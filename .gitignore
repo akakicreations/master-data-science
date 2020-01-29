@@ -9,6 +9,9 @@
 *.tax2010
 *.vcf
 
+*ppt
+.pptx
+
 *.7z
 *.deb
 *.gz

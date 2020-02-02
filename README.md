@@ -1,2 +1,2 @@
-Aquí voy a ir subiendo mis ejercicios y pruebas del master de data science
+Estas son los recursos y ejercicios realizados durante el aprendizaje del Master de Data Science
 

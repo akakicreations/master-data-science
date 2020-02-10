@@ -1,5 +1,4 @@
 *.csv
-*.csv
 *.dat
 *.efx
 *.gbr
@@ -9,6 +8,8 @@
 *.tax2010
 *.vcf
 *.txt
+*.xls
+.xlsx
 
 *.ppt
 *.pptx

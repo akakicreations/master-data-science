@@ -1,0 +1,65 @@
+---
+title: "Algunos ejercicios con R y bases de datos"
+output: html_notebook
+---
+
+### Ejercicio asar tabla a tidy (pivot_longer) de "life-expectancy-and-fertility-two-countries-example.csv"
+```{r}
+# Cargo datos
+data_ex <- read_csv("Datasets/life-expectancy-and-fertility-two-countries-example.csv")
+# Paso la tabla a tidy
+tidy_data <- data_ex %>%
+  pivot_longer( -country,
+               names_to = c('year', 'variable'),
+               names_pattern = '(.{4})_(.*)',
+               names_ptypes = list(year =integer()),
+               values_to= "value")
+#Pasar la columna variable a dos diferentes
+tidy_data2 <- tidy_data %>% 
+  pivot_wider(everything(), names_from=variable, values_from=value)
+
+#Hacer los gráficos y juntarlos
+p1 <- tidy_data2 %>%
+  ggplot(aes(year, fertility, col=country)) +
+  geom_line()
+
+p2 <-tidy_data2 %>%
+  ggplot(aes(year, life_expectancy, col=country)) +
+  geom_line()
+library(gridExtra)
+grid.arrange(p1, p2, ncol=2)
+```
+
+
+### Ejercicio de ver esperanza de vida de algunos continentes de, "gapminder"
+```{r}
+# Cargo datos
+data(gapminder)
+# Sacar datos solo de unos años y continentes determinados, filtrando 
+years <- c(1962, 1980, 1990, 2000, 2012)
+continents <- c("Europe", "Asia")
+
+g <- gapminder %>% filter(year %in% years & continent %in% continents) %>%
+ggplot(aes(fertility, life_expectancy, col= continent)) +
+geom_point() +
+facet_wrap(~year)
+g
+```
+
+```{r}
+# Lo mismo que lo anterior pero animado
+data(gapminder)
+years <- c(1962, 1980, 1990, 2000, 2012)
+continents <- c("Europe", "Asia")
+
+g <- gapminder %>% filter(year %in% years & continent %in% continents) %>%
+ggplot(aes(fertility, life_expectancy, col= continent)) +
+geom_point() +
+transition_states(year, transition_length=1, state_length=1) + #Para animar gráfico
+ggtitle('Year {closest_state}')
+
+animate(g)
+```
+
+
+

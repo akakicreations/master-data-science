@@ -1,0 +1,55 @@
+2020-03-07 10:54:10 INFO::test 1: Impreso Hello World
+2020-03-07 10:57:03 INFO::test 1: Impreso Hello World
+2020-03-07 10:57:03 ERROR::test 2: Imprimir suma
+2020-03-07 10:58:16 INFO::test 1: Impreso Hello World
+2020-03-07 10:58:16 ERROR::test 2: Imprimir suma
+2020-03-07 10:58:16 INFO::test 1: Impreso Hello World
+2020-03-07 10:58:31 INFO::test 1: Impreso Hello World
+2020-03-07 10:58:31 ERROR::test 2: Imprimir suma
+2020-03-07 10:58:31 INFO::test 1: Mensaje 22
+2020-03-07 11:03:00 INFO::test 1
+2020-03-07 11:03:00 DEBUG::test 2
+2020-03-07 11:03:00 WARNING::test 3
+2020-03-07 11:03:24 INFO::test 1: Impreso Hello World
+2020-03-07 11:03:24 ERROR::test 2: Imprimir suma
+2020-03-07 11:03:24 INFO::test 1: Mensaje 22
+2020-03-07 11:03:40 INFO::test 1: Impreso Hello World
+2020-03-07 11:03:40 ERROR::test 2: Imprimir suma
+2020-03-07 11:03:40 INFO::test 1: Mensaje 22
+2020-03-07 11:09:46 INFO::test 1: Cargado el csv
+2020-03-07 11:09:46 ERROR::test 2: Imprimir suma
+2020-03-07 11:11:35 INFO::test 1: Cargado el csv
+2020-03-07 11:11:35 ERROR::test 2: Imprimir suma
+2020-03-07 11:11:35 INFO::test 1: Mensaje 22
+2020-03-07 11:13:57 INFO::test 1: Cargado el csv
+2020-03-07 11:13:57 INFO::test 1: Mensaje 22
+2020-03-07 11:14:27 INFO::test 1: Cargado el csv
+2020-03-07 11:14:27 INFO::test 1: Llamada a main ejecutada
+2020-03-07 11:25:01 INFO::test 1: Cargado el csv
+2020-03-07 11:25:25 INFO::test 1: Cargado el csv
+2020-03-07 11:25:50 INFO::test 1: Cargado el csv
+2020-03-07 11:26:58 INFO::test 1: Cargado el csv
+2020-03-07 11:27:12 INFO::test 1: Cargado el csv
+2020-03-07 11:27:12 INFO::test 1: Seleccionos datos
+2020-03-07 11:27:12 INFO::test 1: Seleccionos datos
+2020-03-07 11:27:12 INFO::test 1: Llamada a main ejecutada
+2020-03-07 11:39:04 INFO::test 1: Cargado el csv
+2020-03-07 11:39:04 INFO::test 1: Seleccionos datos
+2020-03-07 11:39:04 INFO::test 1: Seleccionos datos
+2020-03-07 11:39:04 INFO::test 1: Llamada a main ejecutada
+2020-03-07 12:00:20 INFO::test 1: Cargado el csv
+2020-03-07 12:00:20 INFO::test 1: Seleccionos datos mayores que 12 en alcohol
+2020-03-07 12:00:20 INFO::test 1: Guardar datos en archivo local
+2020-03-07 12:00:20 INFO::test 1: Llamada a main ejecutada
+2020-03-07 12:46:13 INFO::test 1: Cargado el csv
+2020-03-07 12:46:13 INFO::test 1: Seleccionos datos mayores que 12 en alcohol
+2020-03-07 12:46:13 INFO::test 1: Guardar datos en archivo local
+2020-03-07 12:46:13 INFO::test 1: Llamada a main ejecutada
+2020-03-07 12:47:24 INFO::test 1: Cargado el csv
+2020-03-07 12:47:24 INFO::test 1: Seleccionos datos mayores que 12 en alcohol
+2020-03-07 12:47:24 INFO::test 1: Guardar datos en archivo local
+2020-03-07 12:47:24 INFO::test 1: Llamada a main ejecutada
+2020-03-07 13:21:21 INFO::test 1: Cargado el csv
+2020-03-07 13:21:21 INFO::test 1: Seleccionos datos mayores que 12 en alcohol
+2020-03-07 13:21:21 INFO::test 1: Guardar datos en archivo local
+2020-03-07 13:21:21 INFO::test 1: Llamada a main ejecutada

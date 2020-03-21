@@ -9,7 +9,7 @@
 *.vcf
 *.txt
 *.xls
-.xlsx
+*.xlsx
 
 *.ppt
 *.pptx

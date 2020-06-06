@@ -27,3 +27,6 @@
 *.zipx
 *.tgz
 *.bz2
+
+*.w2v
+*.npy
